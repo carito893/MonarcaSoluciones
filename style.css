@@ -230,3 +230,22 @@ body {
 .modal {
     overflow-y: auto;
 }
+
+.crear-beneficio {
+    margin: 0 auto;
+    position: relative;
+}
+
+.bcrear-ben {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #9ec4c9;
+    border-radius: 6px;
+    border: 3px double #25294f;
+    position: absolute;
+    left: 1100px;
+    top: 1200px;
+}
