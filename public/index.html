@@ -102,7 +102,7 @@
         <!-- fin sección de servicios -->
         <div>
             <div id=crear-beneficio>
-                <a class="bcrear-ben" href="#modalCrearBeneficio" title="Crear Beneficio" role="link">Crear Beneficio</a>
+                <a class="bcrear-ben" href="#modalCrearBeneficio" data-bs-toggle="modal" title="Crear Beneficio" role="link">Crear Beneficio</a>
             </div>
 
             <h1 id="Beneficios" class="CatBen">Beneficios</h1>
@@ -315,47 +315,58 @@
                     <button onclick="alert( 'Monarca Soluciones esta muy agradecido por tus servicios, nos encanta que hayas seleccionado este nuevo beneficio! disfrutalo...')" type="button" class="btn btn-primary">Seleccionar beneficio</button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver atras</button>
                 </div>
+
             </div>
         </div>
     </div>
 
-    <!-- Modal de Crear Beneficio -->
-    <div id=modalCrearBeneficio class="modal fade" tabindex="-1" aria-labelledby="modalCrearBeneficio" aria-hidden="true">
+    <!-- Modal de Crear Beneficio  -->
+
+    <div id="modalCrearBeneficio" class="modal fade" tabindex="-1" aria-labelledby="modalCrearBeneficio" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title">Crear un beneficio</h5>
-                    <h6>Esta opción solo esta disponible para el usuario Admin</h6>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+                    <h6>Nota: Esta opción solo esta disponible para el usuario Admin</h6>
                     <div class="col-md">
                         <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInputGrid" placeholder="Nombre del beneficio" value="">
+                            <input type="text" class="form-control" id="nombreBeneficio" placeholder="Nombre del beneficio" value="">
                             <label for="floatingInputGrid">Nombre beneficio</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="descripcionBeneficio" placeholder="Nombre del beneficio" value="">
+                            <label for="floatingInputGrid">Descripción beneficio</label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="number" class="form-control" id="cantidadBeneficio" placeholder="Cantidad del beneficio" value="">
+                            <label for="floatingInputGrid">Cantidad beneficio</label>
                         </div>
                     </div>
                     <div class="col-md">
                         <div class="form-floating">
                             <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-              <option selected>Selecciona la categoria del beneficio</option>
-              <option value="1">Pequeños detalles y antojos</option>
-              <option value="2">Viajes y mucho sol</option>
-              <option value="3">Deportes y Salud</option>
-            </select>
+                                    <option selected>Selecciona la categoria del beneficio</option>
+                                    <option value="1">Pequeños detalles y antojos</option>
+                                    <option value="2">Viajes y mucho sol</option>
+                                    <option value="3">Deportes y Salud</option>
+                            </select>
                             <label for="floatingSelectGrid">Categorias Beneficios</label>
                         </div>
                     </div>
                 </div>
+                <div class="modal-footer">
+                    <button onclick="alert( 'Beneficio Agregado')" type="button" class="btn btn-primary" data-bs-dismiss="modal">Agregar Beneficio</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
 
-            </div>
-            <div class="modal-footer">
-                <button onclick="alert( 'Monarca Soluciones esta muy agradecido por tus servicios, nos encanta que hayas seleccionado este nuevo beneficio! disfrutalo...')" type="button" class="btn btn-primary">Seleccionar beneficio</button>
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Volver atras</button>
-            </div>
         </div>
     </div>
     </div>
+
     <!-- fin pie del sitio -->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
