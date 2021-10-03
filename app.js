@@ -1,6 +1,18 @@
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
+
+//import BootstrapVue from 'bootstrap-vue';
+//Vue.use(BootstrapVue);
+//import 'bootstrap/dist/css/bootstrap.css';
+//import 'bootstrap-vue/dist/bootstrap-vue.css';
+
+/* import axios from 'axios';
+import VueAxios from 'vue-axios';
+Vue.use(VueAxios, axios); */
+
+//axios.defaults.baseURL = 'http://127.0.0.1:5500/api';
+
 /* import passport from 'passport-local';
 import flash from 'connect-flash';
 import cookieParser from 'cookie-parser';
@@ -16,6 +28,7 @@ const app = express();
 //Conexión a la base de datos
 
 const mongoose = require('mongoose');
+//const dbUrl: 'mongodb+srv://admin:<Admin123>@cluster0.brfju.mongodb.net/monarcaDB?retryWrites=true&w=majority';
 const uri = 'mongodb://localhost:27017/monarcaBD';
 const options = { useNewUrlParser: true, useUnifiedTopology: true };
 

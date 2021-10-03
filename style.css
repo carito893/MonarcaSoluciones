@@ -94,7 +94,7 @@ body {
 }
 
 .services-section,
-.seccion-noticias,
+.seccion-beneficios,
 .seccion-equipo {
     display: flex;
     margin-bottom: 15px;
@@ -117,7 +117,7 @@ body {
     font-family: Comic;
 }
 
-.seccion-noticias,
+.seccion-beneficios,
 .header-container,
 .seccion-equipo {
     background-color: #9ec4c9;
@@ -126,7 +126,7 @@ body {
     align-items: center;
 }
 
-.seccion-noticias {
+.seccion-beneficios {
     flex-wrap: wrap;
 }
 
