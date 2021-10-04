@@ -45,6 +45,29 @@ mongoose.connect(uri, options).then(
     }
 );
 
+/* const http = require("http");
+const hostname ="127.0.0.1";
+const port = 3000;
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader("Content-Type","text/javascript");
+    res.end("/index.html");
+});
+
+const MongoClient = require("mongodb").MongoClient;
+const uri ="mongodb+srv://admin:<Admin123>@cluster0.brfju.mongodb.net/monarcaDB?retryWrites=true&w=majority";
+MongoClient.connect(uri, { useUnifiedTopology: true }, (err, client) => {
+    if (err) console.log("Error occurred connecting to MongoDB...");
+    console.log("Connected to MongoDB!");
+});
+
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+server.listen(port, hostname, () => {
+    console.log(`Server running at http://${hostname}:${port}/`);
+});
+ */
 // require('./config/passport')(passport);
 //MIDDELWARE
 

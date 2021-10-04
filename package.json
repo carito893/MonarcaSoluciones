@@ -1,37 +1,37 @@
 {
-  "name": "servidor",
-  "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "scripts": {
-    "dev": "nodemon app.js",
-    "devbabel": "nodemon app.js --exec babel-node",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "connect-history-api-fallback": "^1.6.0",
-    "cookie-parser": "^1.4.5",
-    "cors": "^2.8.5",
-    "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "express-session": "^1.17.2",
-    "mongoose": "^6.0.8",
-    "morgan": "^1.10.0",
-    "passport-local": "^1.0.0",
-    "vuetify": "^2.4.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.15.7",
-    "@babel/core": "^7.15.5",
-    "@babel/node": "^7.15.4",
-    "@babel/preset-env": "^7.15.6",
-    "sass": "~1.32.0",
-    "sass-loader": "^10.0.0",
-    "vue-cli-plugin-vuetify": "~2.4.2",
-    "vuetify-loader": "^1.7.0"
-  },
-  "keywords": [],
-  "license": "ISC"
+    "name": "servidor",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "devbabel": "nodemon app.js --exec babel-node",
+        "test": "echo \"Error: no test specified\"&& exit 1"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "connect-history-api-fallback": "^1.6.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-session": "^1.17.2",
+        "mongoose": "^6.0.8",
+        "morgan": "^1.10.0",
+        "passport-local": "^1.0.0",
+        "vuetify": "^2.4.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.15.7",
+        "@babel/core": "^7.15.5",
+        "@babel/node": "^7.15.4",
+        "@babel/preset-env": "^7.15.6",
+        "sass": "~1.32.0",
+        "sass-loader": "^10.0.0",
+        "vue-cli-plugin-vuetify": "~2.4.2",
+        "vuetify-loader": "^1.7.0"
+    },
+    "keywords": [],
+    "license": "ISC"
 }
