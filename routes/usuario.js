@@ -45,6 +45,10 @@ router.get('/usuario', async(req, res) => {
     }
 });
 
+//Metodo Login
+
+
+
 //Eliminar usuario
 router.delete('/usuario/:id', async(req, res) => {
     const _id = req.params.id;

@@ -29,7 +29,8 @@ const app = express();
 
 const mongoose = require('mongoose');
 //const dbUrl: 'mongodb+srv://admin:<Admin123>@cluster0.brfju.mongodb.net/monarcaDB?retryWrites=true&w=majority';
-const uri = 'mongodb://localhost:27017/monarcaBD';
+const uri = 'mongodb+srv://admin:Admin123@cluster0.brfju.mongodb.net/monarcaDB?retryWrites=true&w=majority';
+//const uri = 'mongodb://localhost:27017/monarcaBD';
 const options = { useNewUrlParser: true, useUnifiedTopology: true };
 
 // Or using promises 
@@ -103,7 +104,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 }); */
 //PUERTOS
 
-app.set('puerto', process.env.PORT || 3000);
+app.set('puerto', process.env.PORT || 5000);
 app.listen(app.get('puerto'), function() {
-    console.log('Example app listening on port' + app.get('puerto'));
+    console.log('app listening on port' + app.get('puerto'));
 });
