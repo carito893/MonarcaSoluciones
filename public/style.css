@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+    font-family: 'helvetica', Tahoma, Geneva, Verdana, sans-serif;
+    /* color: rgb(40, 40, 93); */
+    font-family: Arial, Helvetica, freesans, sans-serif;
+}
+
+.carousel-item {
+    margin-top: 85px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+.body-style {
+    background-color: #117a65;
+    color: rgb(40, 40, 93);
+    padding-top: -5%;
+}
+
+body {
+    max-width: 1400px;
+    min-width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    color: #222222;
+}
+
+.header-section {
+    margin-bottom: 25px;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    color: #fbfcfc;
+}
+
+.w-100 {
+    height: 400px;
+}
+
+.site-title {
+    width: auto;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.site-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.site-nav>a {
+    color: inherit;
+    text-decoration-skip-ink: auto;
+    transition: color .1s ease-out;
+    text-underline-offset: 1px;
+}
+
+.site-nav>a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.logo-container {
+    width: auto;
+}
+
+.logo-container__site-logo {
+    height: 70px;
+}
+
+.banner {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.banner>img {
+    width: 100%;
+    height: 400px;
+    max-width: 1400px;
+    object-fit: cover;
+}
+
+.services-section,
+.seccion-beneficios,
+.seccion-equipo {
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.CatBen {
+    text-align: center;
+    background-color: #25294f;
+    padding: 20px;
+    color: #fbfcfc;
+}
+
+.CatBen.h1 {
+    color: #fbfcfc;
+}
+
+.h1 {
+    text-align: center;
+    font-family: Comic;
+}
+
+.seccion-beneficios,
+.header-container,
+.seccion-equipo {
+    background-color: #9ec4c9;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.seccion-beneficios {
+    flex-wrap: wrap;
+}
+
+.services-info {
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    background-color: #9ec4c9;
+}
+
+.services-info__title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.news-info {
+    width: 50%;
+    padding: 20px;
+}
+
+.news-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-info__imagen {
+    border-radius: 90%;
+    width: 270px;
+    height: 200px;
+}
+
+.news-info__title {
+    align-self: center;
+    margin: 20px;
+    display: flex;
+    align-content: center;
+}
+
+.seccion-pie {
+    background-color: #25294f;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    color: aliceblue;
+}
+
+.services-info__imagen {
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+}
+
+.services-info__imagen>img:hover {
+    filter: sepia(100%);
+    border-radius: 80%;
+}
+
+.team-info {
+    width: 25%;
+    padding: 15px;
+}
+
+.team-info__imagen {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    height: 210px;
+}
+
+.footer-info__imagen {
+    width: 60px;
+    height: 60px;
+    padding: 3%;
+}
+
+.logo-fotter-logo {
+    width: 250px;
+}
+
+.buttonVerBeneficio {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: #25294f;
+    color: aliceblue;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.crear-beneficio {
+    margin: 0 auto;
+    position: relative;
+}
+
+.bcrear-ben {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #9ec4c9;
+    border-radius: 6px;
+    border: 3px double #25294f;
+    position: absolute;
+    left: 1100px;
+    top: 1200px;
+}
+#justify {
+    text-align: justify;
+}
